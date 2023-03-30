@@ -12,12 +12,13 @@ body {
 }
 
 main {
-    padding-top: 130px;
-   padding-bottom: 120px;
+    padding-top: 75px;
+   padding-bottom: 90px;
 }
 
 main h1 {
     padding-bottom: 40px;
+    padding-top: 120px;
 }
 
 header {
@@ -72,7 +73,7 @@ section {
 }
 
 footer{
-    position: fixed;
+    position: absolute;
     margin-bottom: 0;
 }
 
