@@ -11,25 +11,40 @@
   <header>
     <nav class="text-right">
       <ul>
-        <li> <a id=grey href="https://www.mayoclinic.org/healthy-lifestyle/stress-management/in-depth/stress-relievers/art-20047257">Quick Tips</a></li>
-        <li> <a href="https://www.cdc.gov/mentalhealth/tools-resources/index.htm">Resources</a></li>
+        <li> <a class=grey href="https://www.mayoclinic.org/healthy-lifestyle/stress-management/in-depth/stress-relievers/art-20047257">Quick Tips</a></li>
+        <li> <a class=grey href="https://www.cdc.gov/mentalhealth/tools-resources/index.htm">Resources</a></li>
         <li> <a id=red href="#contact">Get Help</a></li>
       </ul>
     </nav>
   </header>
 
   <main>
-    <h1 class="text-center">Are You cs<span id=red>stressed</span>?</h1>
+    <h1 class="text-center grey">Are You cs<span id=red>stressed</span>?</h1>
     <figure>
       <img src="./assets/images/stressedcoder.jpeg" alt="stressed worker">
-      <figcaption class="text-center">"why isn't the box centered and inside the box inside the bigger box &#128560"</figcaption>
+      <figcaption class="text-center grey">"why isn't the box centered and inside the box inside the bigger box &#128560"</figcaption>
     </figure>
     <section>
-      <h2 class="text-center">Contact Help</h2>
+      <h2 class="text-center grey">Contact Help</h2>
+      <form>
+        <ul id="border">
+          <li>
+            <label class="text-right" for="name">Name:</label>
+            <input type="text" id="name" name="user-name">
+          </li>
+          <li>
+            <label class="text-right" for="name">Email:</label>
+            <input type="text" id="email" name="user-email">
+          </li>
+        </ul>
+        <div class="text-center">
+          <button type="submit">SEND</button>
+        </div>
+      </form>
     </section>
   </main>
 
   <footer>
-    <h2 class="text-center">© 2023 Don't Get Boxed-In</h2>
+    <h2 class="text-center grey">© 2023 Don't Get Boxed-In Inc.</h2>
   </footer>
 </body>
