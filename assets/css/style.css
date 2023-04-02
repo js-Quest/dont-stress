@@ -8,8 +8,8 @@
 body {
     position: relative;
     font-size: 20px;
-    background-color: bisque;
-    color: rgb(59, 59, 59);
+    background-color: rgb(6, 65, 44);
+    color: rgb(249, 249, 249);
     flex: 1;
 }
 
@@ -24,13 +24,14 @@ main h1 {
 
 header {
     position: fixed;
-  border-bottom: 6px solid rgb(255, 255, 255);
-  padding-top: 15px;
+    border-bottom: 6px solid rgb(255, 255, 255);
+    padding-top: 15px;
+    padding-bottom: 50px;
 }
 
 header,
 footer {
-    background-color: lightblue; 
+    background-color: rgb(71, 138, 117); 
     display: inline;
     height: 45px;
     width: 100%;
@@ -50,7 +51,7 @@ a {
 img {
     display: block;
     height: 300px;
-    border: 2px solid #555;
+    border: 5px solid #e6cdcd;
     align-items: center;
 }
 
@@ -71,7 +72,7 @@ section {
     margin-bottom: 0;
     padding: 20px 10px 60px 10px;
     border-top: 3px solid rgb(255, 255, 255);
-    background-color: lightblue;
+    background-color: rgb(71, 138, 117);
     width: 100%;
     
 }
@@ -92,7 +93,7 @@ form {
 
 input {
     box-sizing: border-box;
-    width: 275px;
+    width: 260px;
     border: 1px solid black;
 }
 
@@ -118,17 +119,17 @@ footer{
     text-align: center;
 }
 
-.grey {
-    color: rgb(61, 61, 61);
+.pink {
+    color: rgb(217, 198, 198);
 }
 
 #red {
-    color:#812a12
+    color:#9b2b0c
 }
 
 #border {
     width: 400px;
-    border: 2px solid grey;
+    border: 2px solid rgb(230, 192, 192);
     padding: 10px;
     margin: 10px;
     border-radius: 7px;
