@@ -2,6 +2,7 @@
     padding: 0;
     margin: 0;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    box-sizing: border-box;
 }
 
 body {
@@ -9,6 +10,7 @@ body {
     font-size: 20px;
     background-color: bisque;
     color: rgb(59, 59, 59);
+    flex: 1;
 }
 
 main {
@@ -32,6 +34,7 @@ footer {
     display: inline;
     height: 45px;
     width: 100%;
+    flex: 1;
 }
 
 li {
@@ -105,7 +108,6 @@ footer{
     padding: 10px;
     margin-bottom: 0;
     font-size: 10px;
-    width: 100%;
 }
 
 .text-right {
