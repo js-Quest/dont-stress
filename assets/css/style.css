@@ -8,7 +8,7 @@
 body {
     position: relative;
     font-size: 20px;
-    background-color: rgb(6, 65, 44);
+    background-color: rgb(34, 149, 194);
     color: rgb(249, 249, 249);
     flex: 1;
 }
@@ -31,7 +31,7 @@ header {
 
 header,
 footer {
-    background-color: rgb(71, 138, 117); 
+    background-color: rgb(71, 79, 138); 
     display: inline;
     height: 45px;
     width: 100%;
@@ -72,7 +72,7 @@ section {
     margin-bottom: 0;
     padding: 20px 10px 60px 10px;
     border-top: 3px solid rgb(255, 255, 255);
-    background-color: rgb(71, 138, 117);
+    background-color: rgb(71, 79, 138);
     width: 100%;
     
 }
@@ -124,7 +124,7 @@ footer{
 }
 
 #red {
-    color:#9b2b0c
+    color:#aa3818
 }
 
 #border {
